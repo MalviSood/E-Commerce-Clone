@@ -1,0 +1,359 @@
+body{
+    background: white;
+}
+.breadcrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+.product-display{
+    min-height: 100%;
+    padding: 10px 20px;
+    display: flex;
+
+}
+.product-display hr{
+    border: none;
+    height: 1px;
+    background-color: #c1c1c1;
+}
+.product-d-image{
+    display: flex;
+    gap: 10px;
+
+}
+.product-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-icons img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.product-d-details{
+    margin: 0 10px;
+
+}
+.product-title{
+    font-size: 25px;
+}
+.brand-store a{
+    margin-top: 5px;
+    color: #386bb7;
+    font-size: 15px;
+}
+.brand-store a:hover{
+    text-decoration: underline;
+    color: #163564;
+}
+.product-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    margin-top: 3px;
+    
+}
+.product-rating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+
+}
+.product-rating a{
+    
+    color: #386bb7;
+    font-size: 12px;
+}
+.product-rating a:hover{
+    text-decoration: underline;
+    color: #163564;
+}
+.product-rating p{
+    color: rgba(0, 0, 0, 0.886);
+    font-size: 13px;
+}
+.product-rating span{
+    color: black;
+    font-weight: 600;
+}
+.product-price div{
+    display: flex;
+    gap: 8px;
+}
+.product-price p{
+    font-size: 15px;
+}
+.discount{
+    font-size: 28px;
+    font-weight: 260;
+    color: rgba(220, 58, 58, 0.871);
+}
+.product-price h1{
+    font-weight: 450;
+}
+.product-price h5{
+    font-weight: 400;
+    color: #565656;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.rupee{
+    vertical-align: super;
+    font-size: 17px;
+    
+}
+.emi{
+    font-weight: 600;
+}
+.product-price a{
+    margin-top: 5px;
+    color: #386bb7;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.product-price a:hover{
+    
+    color: #163564;
+}
+.emioption {
+    margin-top: 5px;
+    color: #386bb7;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.emioption:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.product-price img:hover{
+    cursor: pointer;
+}
+.product-color-selection{
+    margin: 15px 0;
+}
+.product-color-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+   
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid #cbcbcb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.product-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+.product-info p{
+    margin-top: 7px;
+    font-size: 14px;
+}
+.product-info p b{
+    font-weight: 700;
+}
+.product-discrip h1{
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+.product-discrip ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.see{
+    color: #386bb7;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.see:hover{
+    text-decoration: underline;
+    color: #163564;
+}
+.issue{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.issue i:hover {
+    cursor: pointer;
+}
+.issue a{
+    margin-left: 10px;
+    color: #386bb7;
+}
+.issue a:hover{
+    text-decoration: underline;
+    color: #163564;
+}
+.product-d-purchase{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid #c1c1c1;
+    border-radius: 6px;
+    padding: 20px;
+    max-height: 700px;
+}
+.product-d-purchase .price{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.product-d-purchase .price span{
+    font-size: 14px;
+    vertical-align: super;
+}
+.gap{
+    font-size: 15px;
+}
+.gap span{
+ color: #386bb7;
+ text-decoration: underline;
+}
+.gap b{
+    font-weight: 600;
+}
+.gap a{
+    font-size: 12px;
+    align-items: center;
+    vertical-align: middle;
+    color: #386bb7;
+}
+.gap a:hover{
+    cursor: pointer;
+    color: #163564;
+}
+.product-stock{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: green;
+    font-weight: 400;
+    font-size: 19px;
+}
+.stock{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 13px;
+    color: #386bb7;
+}
+.stock p{
+    margin-bottom: 7px;
+}
+.stock span{
+    color: #565656;
+}
+.stock a:hover{
+    text-decoration: underline;
+}
+.plan p{
+    font-size: 15px;
+}
+.plan b{
+    font-size: 15px;
+    font-weight: 600;
+}
+.plan input{
+    margin-right: 3px;
+}
+.plan a{
+    color: #386bb7;
+}
+.plan a:hover{
+    color: #163564;
+    text-decoration: underline;
+}
+.plan span{
+    color: rgb(141, 23, 23);
+}
+.product-quantity{
+    margin: 7px 0px;
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #efefef;
+    border-color: #c1c1c1;
+}
+.product-d-purchase .btn{
+    outline: none;
+    border: none;
+    background: #edc71d;
+    width: 100%;
+    padding: 7px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-d-purchase .buy{
+    background: #fcaa12;
+}
+.product-d-purchase .btn:hover{
+        background: #cda701;
+}
+.product-d-purchase .buy:hover{
+    background: #c68204;
+}
+.gift{
+    margin-right: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.wishlist{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: start;
+    background: transparent;
+    cursor: pointer;
+}
+.product-compatibility h1{
+    font-size: 19px;
+    margin-top: 13px;
+    font-weight: 600;
+}
+.product-compatibility p{
+    font-size: 15.5px;
+    font-weight: 375;
+}
+.product-compatibility div{
+    display: flex;
+    gap: 5px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+.product-compatibility div p{
+    border: 1px solid rgb(150, 146, 146);
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+.bestseller2{
+    font-size: 8px;
+    
+    
+}
+.bestseller2 span{
+    background: rgb(4, 9, 98);
+    padding: 2px;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+}
